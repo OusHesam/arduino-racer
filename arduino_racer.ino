@@ -272,7 +272,7 @@ void drawMainMenu() {
   oled.clearDisplay();
   oled.drawRoundRect(0, 0, 128, 64, 4, SSD1306_WHITE);
 
-  centerText(F("NEON RACER"), 5, 2);
+  centerText(F("Ous Rush"), 5, 2);
   oled.drawFastHLine(10, 23, 108, SSD1306_WHITE);
 
   drawItem(F("START"),   28, mainSel == 0);
